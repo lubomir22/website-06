@@ -1,0 +1,177 @@
+html {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+
+}
+
+header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 25px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#heading {
+    background-image: url("../image/backgroundImage1.jpg");
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+#navi ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navi ul li {
+    display: inline-block;
+
+}
+
+#navi ul li a {
+    text-decoration: none;
+    padding: .2em 1em;
+    color: #fff;
+
+}
+
+#navi ul li a:hover {
+    color: #fff;
+    background-color: #369;
+}
+
+
+
+#about .containerAbout {
+    display: flex;
+    align-items: center;
+}
+
+
+.aboutImage {
+    width: 300px;
+    margin-right: 30px;
+}
+
+.socials img {
+    width: 100%;
+
+}
+
+.socials a {
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#contact-me {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.inputs input {
+    height: 45px;
+    line-height: 45px;
+    width: calc(50% - 15px);
+    text-indent: 15px;
+}
+
+input,
+textarea {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#button input {
+    background-color: #111;
+    border: 1px solid #111;
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.event img {
+    height: 250px;
+    width: auto;
+    margin-right: 15px;
+}

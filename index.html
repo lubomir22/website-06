@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navi">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+
+        <section id="heading">
+            <div class="container">
+                <h1>Liubomyr Zakhidnyy</h1>
+                <h3>Learning frontend</h3>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About me</h2>
+                <div class="containerAbout">
+                    <img src="image/aboutMe.jpg" class="aboutImage"></img>
+                    <div class="text">
+                        <p>
+                            Hello ,my name is Liubomyr Zakhidnyy. I was trying to do a lot of different jobs, finding a proffesion that can bring me satisfaction, because the best work is a highly paid hobby. I was graduated Lviv college of building, architecture and design. Proffesion
+                            - technician-builder. But in the second part of my studying I realized that I dont see the future for myself in this area.
+                        </p>
+
+                        <p>
+                            At this moment i`m study HTML/CSS/Javascript and want to became Front-end developer in future, maybe create my own product . I believe that with the great desire of man everything is in force.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="events">
+            <div class="container">
+                <h2>Events</h2>
+                <div class="event">
+
+                    <img src="image/football.jpg" alt="football">
+                    <p>
+                        At age 14-18 years I was involved in football My team twice took the first place in the district championship. In my spare time try to get together with friends and have some fun.
+                    </p>
+
+                </div>
+                <div class="event">
+                    <img src="image/hiking.jpg" alt="hiking">
+                    <p>
+                        One of my favorite types of rest is a hike to the mountain for a few days. In the future I want to visit the rocks of Crimea .
+                    </p>
+                </div>
+                <div class="event">
+                    <img src="image/images.jpg">
+                    <p>
+                        A few words about Berlin.I was living and working there for half of year. I have only good memories left. Very clean city with fascinating history and architecture.
+                    </p>
+                </div>
+                <div class="event">
+                    <img src="image/berlin.jpg">
+                    <p>
+                        Stockholm has left only pleasant memories I lived there for 3 months. A very cool city, which strikes a combination of water and stone.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="links">
+            <h2>Here you can find me</h2>
+            <div class="socials">
+                <a href="facebok.com/norman1926">
+                    <img src="image/facebook.png">
+                </a>
+                <a href="twitter.com">
+                    <img src="image/Twitter.jpg">
+                </a>
+                <a href="github.com/lubomir22">
+                    <img src="image/github-logo.png">
+                </a>
+            </div>
+        </section>
+        <section id="contact-me">
+            <h2>Contact me</h2>
+            <div class="container">
+                <form name="contact" class="contact-form">
+                    <div class="inputs">
+                        <input type="text" id="name" placeholder="Your Name" />
+                        <input type="text" id="email" placeholder="Your Email" />
+                    </div>
+
+                    <textarea cols="30" rows="5" name="message" id="message" placeholder="Message">
+                    </textarea>
+                    <div id="button">
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
+                <dialog id="thank-dialog">
+                    <p>Thank you for contacting us!</p>
+                </dialog>
+                <dialog id="error-dialog">
+                    <p>Sorry, an error has occured!</p>
+                </dialog>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</body>
+
+</html>
